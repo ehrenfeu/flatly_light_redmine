@@ -297,11 +297,17 @@ p.nodata{
 div.issue { background: #f6f6f6; }
 /*============ SELECT ==========*/
 select {
-    background: #fff;
-    border-color: #cccccc;
-    outline:none;
-    display: inline-block;
     cursor:pointer;
+}
+
+/* Targetting Webkit browsers only. FF will show an ugly drop-down arrow. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {
+        background: #fff;
+        color:#333;
+        border: 1px solid #aaa;
+        appearance:none;
+    }
 }
 /*=========== MY PAGE ==========*/
 tr.time-entry {
