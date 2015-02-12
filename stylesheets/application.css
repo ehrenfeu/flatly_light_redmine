@@ -331,3 +331,7 @@ select[onchange="if (this.value != '') { window.location = this.value; }"]{
   right: 10px;
 }
 
+table.list tbody tr.group span.count {
+  padding-top:2px;
+}
+
