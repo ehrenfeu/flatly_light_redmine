@@ -26,7 +26,7 @@ body {
 h1, h2, h3, h4 {
   font-family: 'Lato', Helvetika, Calibri, Arial, sans-serif;
   padding: 2px 10px 1px 0px;
-  margin: 0 0 10px 0;
+  margin: 0 0 0 0;
 }
 
 h1:first-letter{
@@ -46,7 +46,7 @@ h1:first-letter{
   border-right: 2px solid #eeeff3;
   padding: 0;
   background-color: #354051;
-  line-height: 40px;
+  line-height: 30px;
 }
 
 #top-menu a {
@@ -116,7 +116,8 @@ label[for="q"]{
 
 #header{
   padding-left: 60px;
-  padding-top: 60px;
+  padding-top: 48px;
+  padding-bottom: 0px;
   background-color: #fefefe;
   color: #fefefe;
 }
