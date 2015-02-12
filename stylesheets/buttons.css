@@ -21,3 +21,8 @@ input[type="submit"]:hover, button:hover {
 .buttons a:focus {
   text-decoration: none;
 }
+
+.buttons {
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
